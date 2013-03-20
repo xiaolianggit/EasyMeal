@@ -1,0 +1,42 @@
+///changelog
+04/18/2011
+added class: sharedFunctions
+order basket view has custom cell
+order total price is available
+fixed a problem in order basket view that causes incorrect picture and crash
+
+04/19/2011
+minor changes
+
+04/20/2011
+automatically refresh user menu after adding item
+minor adjustment on barButtonItem, it's no longer a property of a view controller.
+the above change also fixed memory leak problem
+
+04/24/2011
+added proceed button
+added order list add url
+added background threading for downloading image(improved responsively)
+deleted duplicate header and implementation filed for custom cell, now some of the xib files can share a common one
+
+04/25/2011
+submit order to server
+moved posting function to shared functions
+
+04/28/2011
+changed nsstring to nsmutablestring in xml parsing
+smarter image file downloading and deleting
+improved badge updating
+
+05/04/2011
+added order list view
+
+05/06/2011
+optimized rest info pic update algorithm
+
+05/07/2011
+shake is now working
+offline XML data storage
+added delegate method so that rest pic refreshes immediately after change
+added simple animation
+admin support for basic buttons

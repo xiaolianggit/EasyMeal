@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* EasyMealAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* EasyMealAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		CE0062D2137548D300E115E1 /* adminAuthen.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0062D0137548D300E115E1 /* adminAuthen.m */; };
+		CE0062D3137548D300E115E1 /* adminAuthen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0062D1137548D300E115E1 /* adminAuthen.xib */; };
+		CE13BCC11376520800B72AD9 /* customTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE13BCC01376520800B72AD9 /* customTableView.m */; };
+		CE27ECD51376920700916089 /* customOrderListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27ECD41376920700916089 /* customOrderListViewCell.m */; };
+		CE27ECD91376926F00916089 /* customOrderListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27ECD81376926F00916089 /* customOrderListViewCell.xib */; };
+		CE27ED5513769C4C00916089 /* orderDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27ED5313769C4C00916089 /* orderDetailView.m */; };
+		CE27ED5613769C4C00916089 /* orderDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE27ED5413769C4C00916089 /* orderDetailView.xib */; };
+		CE2980E6137504C200A0B98C /* customAdminLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2980E5137504C200A0B98C /* customAdminLoginButton.m */; };
+		CE8938FA1372D5F0009E4CDE /* globalURL.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8938F31372D5F0009E4CDE /* globalURL.m */; };
+		CE8938FB1372D5F0009E4CDE /* menuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8938F51372D5F0009E4CDE /* menuItem.m */; };
+		CE8938FC1372D5F0009E4CDE /* sharedFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8938F71372D5F0009E4CDE /* sharedFunctions.m */; };
+		CE8938FD1372D5F0009E4CDE /* orderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8938F91372D5F0009E4CDE /* orderItem.m */; };
+		CE8939311372D711009E4CDE /* welcome.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8939291372D711009E4CDE /* welcome.m */; };
+		CE8939321372D711009E4CDE /* welcome.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE89392A1372D711009E4CDE /* welcome.xib */; };
+		CE8939331372D711009E4CDE /* changeRestImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89392C1372D711009E4CDE /* changeRestImageView.m */; };
+		CE8939341372D711009E4CDE /* editRestInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89392E1372D711009E4CDE /* editRestInfoView.m */; };
+		CE8939351372D711009E4CDE /* customMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8939301372D711009E4CDE /* customMapAnnotation.m */; };
+		CE89394F1372D738009E4CDE /* userMenuDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8939441372D738009E4CDE /* userMenuDetailView.m */; };
+		CE8939501372D738009E4CDE /* menuBasketTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8939461372D738009E4CDE /* menuBasketTabViewController.m */; };
+		CE8939511372D738009E4CDE /* menuBasketTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8939471372D738009E4CDE /* menuBasketTabViewController.xib */; };
+		CE8939521372D738009E4CDE /* userMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8939491372D738009E4CDE /* userMenu.m */; };
+		CE8939531372D738009E4CDE /* addUserMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89394B1372D738009E4CDE /* addUserMenuItemView.m */; };
+		CE8939541372D738009E4CDE /* userBasketListView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89394D1372D738009E4CDE /* userBasketListView.m */; };
+		CE8939551372D738009E4CDE /* userBasketListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE89394E1372D738009E4CDE /* userBasketListView.xib */; };
+		CE89395D1372D753009E4CDE /* userInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8939581372D753009E4CDE /* userInfo.m */; };
+		CE89395E1372D753009E4CDE /* userInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8939591372D753009E4CDE /* userInfo.xib */; };
+		CE89395F1372D753009E4CDE /* orderListView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89395B1372D753009E4CDE /* orderListView.m */; };
+		CE8939601372D753009E4CDE /* orderListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE89395C1372D753009E4CDE /* orderListView.xib */; };
+		CE8939891372D7EB009E4CDE /* userMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE89397F1372D7EB009E4CDE /* userMenuCell.m */; };
+		CE89398A1372D7EB009E4CDE /* userMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8939801372D7EB009E4CDE /* userMenuCell.xib */; };
+		CE89398B1372D7EB009E4CDE /* basketViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8939821372D7EB009E4CDE /* basketViewCell.m */; };
+		CE89398C1372D7EB009E4CDE /* basketViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8939831372D7EB009E4CDE /* basketViewCell.xib */; };
+		CE89398D1372D7EB009E4CDE /* textInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8939851372D7EB009E4CDE /* textInputCell.m */; };
+		CE89398E1372D7EB009E4CDE /* editRestInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8939861372D7EB009E4CDE /* editRestInfoCell.xib */; };
+		CE89398F1372D7EB009E4CDE /* addUserMenuItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8939871372D7EB009E4CDE /* addUserMenuItemCell.xib */; };
+		CE8939901372D7EB009E4CDE /* userInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8939881372D7EB009E4CDE /* userInfoCell.xib */; };
+		CE89399E1372D81D009E4CDE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8939931372D81D009E4CDE /* icon.png */; };
+		CE89399F1372D81D009E4CDE /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8939941372D81D009E4CDE /* menu.png */; };
+		CE8939A01372D81D009E4CDE /* 125-food.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8939951372D81D009E4CDE /* 125-food.png */; };
+		CE8939A11372D81D009E4CDE /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8939961372D81D009E4CDE /* cart.png */; };
+		CE8939A21372D81D009E4CDE /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8939971372D81D009E4CDE /* placeholder.png */; };
+		CE8939A31372D81D009E4CDE /* unavailable.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE8939981372D81D009E4CDE /* unavailable.jpg */; };
+		CE8939A41372D81D009E4CDE /* changeRestImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8939991372D81D009E4CDE /* changeRestImageView.xib */; };
+		CE8939A51372D81D009E4CDE /* userMenuDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE89399A1372D81D009E4CDE /* userMenuDetailView.xib */; };
+		CE8939A61372D81D009E4CDE /* userMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE89399B1372D81D009E4CDE /* userMenu.xib */; };
+		CE8939A71372D81D009E4CDE /* addUserMenuItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE89399C1372D81D009E4CDE /* addUserMenuItemView.xib */; };
+		CE8939A81372D81D009E4CDE /* editRestInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE89399D1372D81D009E4CDE /* editRestInfoView.xib */; };
+		CE8939CE1372D8C9009E4CDE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8939CD1372D8C9009E4CDE /* MapKit.framework */; };
+		CEA953771377ED810034EAEF /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA953761377ED810034EAEF /* call.png */; };
+		CEBA0BBE13742F83000BF168 /* folderPath.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBA0BBD13742F83000BF168 /* folderPath.m */; };
+		CEBE9D0F1376D5E7006B3237 /* mapView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE9D0D1376D5E7006B3237 /* mapView.m */; };
+		CEBE9D101376D5E7006B3237 /* mapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBE9D0E1376D5E7006B3237 /* mapView.xib */; };
+		CEF7939A1376F0DF0047A0AC /* 44-shoebox.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF793991376F0DF0047A0AC /* 44-shoebox.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* EasyMealAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyMealAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* EasyMealAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyMealAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* EasyMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* EasyMeal_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyMeal_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* EasyMeal-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "EasyMeal-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CE0062CF137548D300E115E1 /* adminAuthen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adminAuthen.h; sourceTree = "<group>"; };
+		CE0062D0137548D300E115E1 /* adminAuthen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = adminAuthen.m; sourceTree = "<group>"; };
+		CE0062D1137548D300E115E1 /* adminAuthen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = adminAuthen.xib; sourceTree = "<group>"; };
+		CE13BCBF1376520800B72AD9 /* customTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customTableView.h; sourceTree = "<group>"; };
+		CE13BCC01376520800B72AD9 /* customTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customTableView.m; sourceTree = "<group>"; };
+		CE27ECD31376920700916089 /* customOrderListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customOrderListViewCell.h; sourceTree = "<group>"; };
+		CE27ECD41376920700916089 /* customOrderListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customOrderListViewCell.m; sourceTree = "<group>"; };
+		CE27ECD81376926F00916089 /* customOrderListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = customOrderListViewCell.xib; sourceTree = "<group>"; };
+		CE27ED5213769C4C00916089 /* orderDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orderDetailView.h; sourceTree = "<group>"; };
+		CE27ED5313769C4C00916089 /* orderDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = orderDetailView.m; sourceTree = "<group>"; };
+		CE27ED5413769C4C00916089 /* orderDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = orderDetailView.xib; sourceTree = "<group>"; };
+		CE2980E4137504C200A0B98C /* customAdminLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customAdminLoginButton.h; sourceTree = "<group>"; };
+		CE2980E5137504C200A0B98C /* customAdminLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customAdminLoginButton.m; sourceTree = "<group>"; };
+		CE8938F21372D5F0009E4CDE /* globalURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globalURL.h; sourceTree = "<group>"; };
+		CE8938F31372D5F0009E4CDE /* globalURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = globalURL.m; sourceTree = "<group>"; };
+		CE8938F41372D5F0009E4CDE /* menuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuItem.h; sourceTree = "<group>"; };
+		CE8938F51372D5F0009E4CDE /* menuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuItem.m; sourceTree = "<group>"; };
+		CE8938F61372D5F0009E4CDE /* sharedFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sharedFunctions.h; sourceTree = "<group>"; };
+		CE8938F71372D5F0009E4CDE /* sharedFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sharedFunctions.m; sourceTree = "<group>"; };
+		CE8938F81372D5F0009E4CDE /* orderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orderItem.h; sourceTree = "<group>"; };
+		CE8938F91372D5F0009E4CDE /* orderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = orderItem.m; sourceTree = "<group>"; };
+		CE8939281372D711009E4CDE /* welcome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = welcome.h; sourceTree = "<group>"; };
+		CE8939291372D711009E4CDE /* welcome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = welcome.m; sourceTree = "<group>"; };
+		CE89392A1372D711009E4CDE /* welcome.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = welcome.xib; sourceTree = "<group>"; };
+		CE89392B1372D711009E4CDE /* changeRestImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = changeRestImageView.h; sourceTree = "<group>"; };
+		CE89392C1372D711009E4CDE /* changeRestImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = changeRestImageView.m; sourceTree = "<group>"; };
+		CE89392D1372D711009E4CDE /* editRestInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editRestInfoView.h; sourceTree = "<group>"; };
+		CE89392E1372D711009E4CDE /* editRestInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editRestInfoView.m; sourceTree = "<group>"; };
+		CE89392F1372D711009E4CDE /* customMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customMapAnnotation.h; sourceTree = "<group>"; };
+		CE8939301372D711009E4CDE /* customMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customMapAnnotation.m; sourceTree = "<group>"; };
+		CE8939431372D738009E4CDE /* userMenuDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userMenuDetailView.h; sourceTree = "<group>"; };
+		CE8939441372D738009E4CDE /* userMenuDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userMenuDetailView.m; sourceTree = "<group>"; };
+		CE8939451372D738009E4CDE /* menuBasketTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuBasketTabViewController.h; sourceTree = "<group>"; };
+		CE8939461372D738009E4CDE /* menuBasketTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuBasketTabViewController.m; sourceTree = "<group>"; };
+		CE8939471372D738009E4CDE /* menuBasketTabViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = menuBasketTabViewController.xib; sourceTree = "<group>"; };
+		CE8939481372D738009E4CDE /* userMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userMenu.h; sourceTree = "<group>"; };
+		CE8939491372D738009E4CDE /* userMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userMenu.m; sourceTree = "<group>"; };
+		CE89394A1372D738009E4CDE /* addUserMenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addUserMenuItemView.h; sourceTree = "<group>"; };
+		CE89394B1372D738009E4CDE /* addUserMenuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addUserMenuItemView.m; sourceTree = "<group>"; };
+		CE89394C1372D738009E4CDE /* userBasketListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userBasketListView.h; sourceTree = "<group>"; };
+		CE89394D1372D738009E4CDE /* userBasketListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userBasketListView.m; sourceTree = "<group>"; };
+		CE89394E1372D738009E4CDE /* userBasketListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = userBasketListView.xib; sourceTree = "<group>"; };
+		CE8939571372D753009E4CDE /* userInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userInfo.h; sourceTree = "<group>"; };
+		CE8939581372D753009E4CDE /* userInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userInfo.m; sourceTree = "<group>"; };
+		CE8939591372D753009E4CDE /* userInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = userInfo.xib; sourceTree = "<group>"; };
+		CE89395A1372D753009E4CDE /* orderListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orderListView.h; sourceTree = "<group>"; };
+		CE89395B1372D753009E4CDE /* orderListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = orderListView.m; sourceTree = "<group>"; };
+		CE89395C1372D753009E4CDE /* orderListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = orderListView.xib; sourceTree = "<group>"; };
+		CE89397E1372D7EB009E4CDE /* userMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userMenuCell.h; sourceTree = "<group>"; };
+		CE89397F1372D7EB009E4CDE /* userMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userMenuCell.m; sourceTree = "<group>"; };
+		CE8939801372D7EB009E4CDE /* userMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = userMenuCell.xib; sourceTree = "<group>"; };
+		CE8939811372D7EB009E4CDE /* basketViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basketViewCell.h; sourceTree = "<group>"; };
+		CE8939821372D7EB009E4CDE /* basketViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = basketViewCell.m; sourceTree = "<group>"; };
+		CE8939831372D7EB009E4CDE /* basketViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = basketViewCell.xib; sourceTree = "<group>"; };
+		CE8939841372D7EB009E4CDE /* textInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = textInputCell.h; sourceTree = "<group>"; };
+		CE8939851372D7EB009E4CDE /* textInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = textInputCell.m; sourceTree = "<group>"; };
+		CE8939861372D7EB009E4CDE /* editRestInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = editRestInfoCell.xib; sourceTree = "<group>"; };
+		CE8939871372D7EB009E4CDE /* addUserMenuItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = addUserMenuItemCell.xib; sourceTree = "<group>"; };
+		CE8939881372D7EB009E4CDE /* userInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = userInfoCell.xib; sourceTree = "<group>"; };
+		CE8939931372D81D009E4CDE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CE8939941372D81D009E4CDE /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		CE8939951372D81D009E4CDE /* 125-food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "125-food.png"; sourceTree = "<group>"; };
+		CE8939961372D81D009E4CDE /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		CE8939971372D81D009E4CDE /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		CE8939981372D81D009E4CDE /* unavailable.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unavailable.jpg; sourceTree = "<group>"; };
+		CE8939991372D81D009E4CDE /* changeRestImageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = changeRestImageView.xib; sourceTree = "<group>"; };
+		CE89399A1372D81D009E4CDE /* userMenuDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = userMenuDetailView.xib; path = ../userMenuDetailView.xib; sourceTree = "<group>"; };
+		CE89399B1372D81D009E4CDE /* userMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = userMenu.xib; path = ../userMenu.xib; sourceTree = "<group>"; };
+		CE89399C1372D81D009E4CDE /* addUserMenuItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = addUserMenuItemView.xib; path = ../addUserMenuItemView.xib; sourceTree = "<group>"; };
+		CE89399D1372D81D009E4CDE /* editRestInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = editRestInfoView.xib; sourceTree = "<group>"; };
+		CE8939CD1372D8C9009E4CDE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CEA953761377ED810034EAEF /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		CEBA0BBC13742F83000BF168 /* folderPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = folderPath.h; sourceTree = "<group>"; };
+		CEBA0BBD13742F83000BF168 /* folderPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = folderPath.m; sourceTree = "<group>"; };
+		CEBE9D0C1376D5E7006B3237 /* mapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapView.h; sourceTree = "<group>"; };
+		CEBE9D0D1376D5E7006B3237 /* mapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapView.m; sourceTree = "<group>"; };
+		CEBE9D0E1376D5E7006B3237 /* mapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mapView.xib; sourceTree = "<group>"; };
+		CEF793991376F0DF0047A0AC /* 44-shoebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "44-shoebox.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				CE8939CE1372D8C9009E4CDE /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE893A221372DDAC009E4CDE /* Custom Subclass */,
+				CE8939611372D75B009E4CDE /* Custom Cells */,
+				CE8939561372D740009E4CDE /* Order */,
+				CE8939361372D71A009E4CDE /* Menu Item */,
+				CE8939271372D6FD009E4CDE /* Rest Info */,
+				CE8938EF1372D5CD009E4CDE /* Shortcut */,
+				1D3623240D0F684500981E51 /* EasyMealAppDelegate.h */,
+				1D3623250D0F684500981E51 /* EasyMealAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* EasyMeal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* EasyMeal_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEA953761377ED810034EAEF /* call.png */,
+				CEF793991376F0DF0047A0AC /* 44-shoebox.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* EasyMeal-Info.plist */,
+				CE8939931372D81D009E4CDE /* icon.png */,
+				CE8939941372D81D009E4CDE /* menu.png */,
+				CE8939951372D81D009E4CDE /* 125-food.png */,
+				CE8939961372D81D009E4CDE /* cart.png */,
+				CE8939971372D81D009E4CDE /* placeholder.png */,
+				CE8939981372D81D009E4CDE /* unavailable.jpg */,
+				CE8939991372D81D009E4CDE /* changeRestImageView.xib */,
+				CE89399D1372D81D009E4CDE /* editRestInfoView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				CE8939CD1372D8C9009E4CDE /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8938EF1372D5CD009E4CDE /* Shortcut */ = {
+			isa = PBXGroup;
+			children = (
+				CE8938F21372D5F0009E4CDE /* globalURL.h */,
+				CE8938F31372D5F0009E4CDE /* globalURL.m */,
+				CE8938F41372D5F0009E4CDE /* menuItem.h */,
+				CE8938F51372D5F0009E4CDE /* menuItem.m */,
+				CE8938F61372D5F0009E4CDE /* sharedFunctions.h */,
+				CE8938F71372D5F0009E4CDE /* sharedFunctions.m */,
+				CE8938F81372D5F0009E4CDE /* orderItem.h */,
+				CE8938F91372D5F0009E4CDE /* orderItem.m */,
+				CEBA0BBC13742F83000BF168 /* folderPath.h */,
+				CEBA0BBD13742F83000BF168 /* folderPath.m */,
+			);
+			name = Shortcut;
+			sourceTree = "<group>";
+		};
+		CE8939271372D6FD009E4CDE /* Rest Info */ = {
+			isa = PBXGroup;
+			children = (
+				CE8939281372D711009E4CDE /* welcome.h */,
+				CE8939291372D711009E4CDE /* welcome.m */,
+				CE89392A1372D711009E4CDE /* welcome.xib */,
+				CE89392B1372D711009E4CDE /* changeRestImageView.h */,
+				CE89392C1372D711009E4CDE /* changeRestImageView.m */,
+				CE89392D1372D711009E4CDE /* editRestInfoView.h */,
+				CE89392E1372D711009E4CDE /* editRestInfoView.m */,
+				CE89392F1372D711009E4CDE /* customMapAnnotation.h */,
+				CE8939301372D711009E4CDE /* customMapAnnotation.m */,
+				CE0062CF137548D300E115E1 /* adminAuthen.h */,
+				CE0062D0137548D300E115E1 /* adminAuthen.m */,
+				CE0062D1137548D300E115E1 /* adminAuthen.xib */,
+			);
+			name = "Rest Info";
+			sourceTree = "<group>";
+		};
+		CE8939361372D71A009E4CDE /* Menu Item */ = {
+			isa = PBXGroup;
+			children = (
+				CE8939431372D738009E4CDE /* userMenuDetailView.h */,
+				CE8939441372D738009E4CDE /* userMenuDetailView.m */,
+				CE89399A1372D81D009E4CDE /* userMenuDetailView.xib */,
+				CE8939451372D738009E4CDE /* menuBasketTabViewController.h */,
+				CE8939461372D738009E4CDE /* menuBasketTabViewController.m */,
+				CE8939471372D738009E4CDE /* menuBasketTabViewController.xib */,
+				CE8939481372D738009E4CDE /* userMenu.h */,
+				CE8939491372D738009E4CDE /* userMenu.m */,
+				CE89399B1372D81D009E4CDE /* userMenu.xib */,
+				CE89394A1372D738009E4CDE /* addUserMenuItemView.h */,
+				CE89394B1372D738009E4CDE /* addUserMenuItemView.m */,
+				CE89399C1372D81D009E4CDE /* addUserMenuItemView.xib */,
+				CE89394C1372D738009E4CDE /* userBasketListView.h */,
+				CE89394D1372D738009E4CDE /* userBasketListView.m */,
+				CE89394E1372D738009E4CDE /* userBasketListView.xib */,
+			);
+			name = "Menu Item";
+			sourceTree = "<group>";
+		};
+		CE8939561372D740009E4CDE /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				CE8939571372D753009E4CDE /* userInfo.h */,
+				CE8939581372D753009E4CDE /* userInfo.m */,
+				CE8939591372D753009E4CDE /* userInfo.xib */,
+				CE89395A1372D753009E4CDE /* orderListView.h */,
+				CE89395B1372D753009E4CDE /* orderListView.m */,
+				CE89395C1372D753009E4CDE /* orderListView.xib */,
+				CE27ED5213769C4C00916089 /* orderDetailView.h */,
+				CE27ED5313769C4C00916089 /* orderDetailView.m */,
+				CE27ED5413769C4C00916089 /* orderDetailView.xib */,
+				CEBE9D0C1376D5E7006B3237 /* mapView.h */,
+				CEBE9D0D1376D5E7006B3237 /* mapView.m */,
+				CEBE9D0E1376D5E7006B3237 /* mapView.xib */,
+			);
+			name = Order;
+			sourceTree = "<group>";
+		};
+		CE8939611372D75B009E4CDE /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CE89397E1372D7EB009E4CDE /* userMenuCell.h */,
+				CE89397F1372D7EB009E4CDE /* userMenuCell.m */,
+				CE8939801372D7EB009E4CDE /* userMenuCell.xib */,
+				CE8939811372D7EB009E4CDE /* basketViewCell.h */,
+				CE8939821372D7EB009E4CDE /* basketViewCell.m */,
+				CE8939831372D7EB009E4CDE /* basketViewCell.xib */,
+				CE8939841372D7EB009E4CDE /* textInputCell.h */,
+				CE8939851372D7EB009E4CDE /* textInputCell.m */,
+				CE8939861372D7EB009E4CDE /* editRestInfoCell.xib */,
+				CE8939871372D7EB009E4CDE /* addUserMenuItemCell.xib */,
+				CE8939881372D7EB009E4CDE /* userInfoCell.xib */,
+				CE27ECD31376920700916089 /* customOrderListViewCell.h */,
+				CE27ECD41376920700916089 /* customOrderListViewCell.m */,
+				CE27ECD81376926F00916089 /* customOrderListViewCell.xib */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		CE893A221372DDAC009E4CDE /* Custom Subclass */ = {
+			isa = PBXGroup;
+			children = (
+				CE2980E4137504C200A0B98C /* customAdminLoginButton.h */,
+				CE2980E5137504C200A0B98C /* customAdminLoginButton.m */,
+				CE13BCBF1376520800B72AD9 /* customTableView.h */,
+				CE13BCC01376520800B72AD9 /* customTableView.m */,
+			);
+			name = "Custom Subclass";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* EasyMeal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "EasyMeal" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyMeal;
+			productName = EasyMeal;
+			productReference = 1D6058910D05DD3D006BFB54 /* EasyMeal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "EasyMeal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* EasyMeal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				CE8939321372D711009E4CDE /* welcome.xib in Resources */,
+				CE8939511372D738009E4CDE /* menuBasketTabViewController.xib in Resources */,
+				CE8939551372D738009E4CDE /* userBasketListView.xib in Resources */,
+				CE89395E1372D753009E4CDE /* userInfo.xib in Resources */,
+				CE8939601372D753009E4CDE /* orderListView.xib in Resources */,
+				CE89398A1372D7EB009E4CDE /* userMenuCell.xib in Resources */,
+				CE89398C1372D7EB009E4CDE /* basketViewCell.xib in Resources */,
+				CE89398E1372D7EB009E4CDE /* editRestInfoCell.xib in Resources */,
+				CE89398F1372D7EB009E4CDE /* addUserMenuItemCell.xib in Resources */,
+				CE8939901372D7EB009E4CDE /* userInfoCell.xib in Resources */,
+				CE89399E1372D81D009E4CDE /* icon.png in Resources */,
+				CE89399F1372D81D009E4CDE /* menu.png in Resources */,
+				CE8939A01372D81D009E4CDE /* 125-food.png in Resources */,
+				CE8939A11372D81D009E4CDE /* cart.png in Resources */,
+				CE8939A21372D81D009E4CDE /* placeholder.png in Resources */,
+				CE8939A31372D81D009E4CDE /* unavailable.jpg in Resources */,
+				CE8939A41372D81D009E4CDE /* changeRestImageView.xib in Resources */,
+				CE8939A51372D81D009E4CDE /* userMenuDetailView.xib in Resources */,
+				CE8939A61372D81D009E4CDE /* userMenu.xib in Resources */,
+				CE8939A71372D81D009E4CDE /* addUserMenuItemView.xib in Resources */,
+				CE8939A81372D81D009E4CDE /* editRestInfoView.xib in Resources */,
+				CE0062D3137548D300E115E1 /* adminAuthen.xib in Resources */,
+				CE27ECD91376926F00916089 /* customOrderListViewCell.xib in Resources */,
+				CE27ED5613769C4C00916089 /* orderDetailView.xib in Resources */,
+				CEBE9D101376D5E7006B3237 /* mapView.xib in Resources */,
+				CEF7939A1376F0DF0047A0AC /* 44-shoebox.png in Resources */,
+				CEA953771377ED810034EAEF /* call.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* EasyMealAppDelegate.m in Sources */,
+				CE8938FA1372D5F0009E4CDE /* globalURL.m in Sources */,
+				CE8938FB1372D5F0009E4CDE /* menuItem.m in Sources */,
+				CE8938FC1372D5F0009E4CDE /* sharedFunctions.m in Sources */,
+				CE8938FD1372D5F0009E4CDE /* orderItem.m in Sources */,
+				CE8939311372D711009E4CDE /* welcome.m in Sources */,
+				CE8939331372D711009E4CDE /* changeRestImageView.m in Sources */,
+				CE8939341372D711009E4CDE /* editRestInfoView.m in Sources */,
+				CE8939351372D711009E4CDE /* customMapAnnotation.m in Sources */,
+				CE89394F1372D738009E4CDE /* userMenuDetailView.m in Sources */,
+				CE8939501372D738009E4CDE /* menuBasketTabViewController.m in Sources */,
+				CE8939521372D738009E4CDE /* userMenu.m in Sources */,
+				CE8939531372D738009E4CDE /* addUserMenuItemView.m in Sources */,
+				CE8939541372D738009E4CDE /* userBasketListView.m in Sources */,
+				CE89395D1372D753009E4CDE /* userInfo.m in Sources */,
+				CE89395F1372D753009E4CDE /* orderListView.m in Sources */,
+				CE8939891372D7EB009E4CDE /* userMenuCell.m in Sources */,
+				CE89398B1372D7EB009E4CDE /* basketViewCell.m in Sources */,
+				CE89398D1372D7EB009E4CDE /* textInputCell.m in Sources */,
+				CEBA0BBE13742F83000BF168 /* folderPath.m in Sources */,
+				CE2980E6137504C200A0B98C /* customAdminLoginButton.m in Sources */,
+				CE0062D2137548D300E115E1 /* adminAuthen.m in Sources */,
+				CE13BCC11376520800B72AD9 /* customTableView.m in Sources */,
+				CE27ECD51376920700916089 /* customOrderListViewCell.m in Sources */,
+				CE27ED5513769C4C00916089 /* orderDetailView.m in Sources */,
+				CEBE9D0F1376D5E7006B3237 /* mapView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EasyMeal_Prefix.pch;
+				INFOPLIST_FILE = "EasyMeal-Info.plist";
+				PRODUCT_NAME = EasyMeal;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EasyMeal_Prefix.pch;
+				INFOPLIST_FILE = "EasyMeal-Info.plist";
+				PRODUCT_NAME = EasyMeal;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "EasyMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "EasyMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
